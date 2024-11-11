@@ -2,3 +2,4 @@ opencv-python
 numpy
 protobuf
 imutils
+Flask==2.3.2  # Replace with your desired version
