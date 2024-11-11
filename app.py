@@ -10,6 +10,8 @@ from keras.preprocessing.image import img_to_array
 
 app = Flask(__name__)
 
+
+
 # Load your trained model
 model = load_model('gender_detection.h5')
 classes = ['man', 'woman']
